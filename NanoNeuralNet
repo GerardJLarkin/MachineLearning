@@ -1,0 +1,15 @@
+## An effort to complete my M.Sc. thesis
+
+## Description:
+## A filter will be designed that removes thermal drift in images/movies obtained 
+## through Backscattered Scanning Electron Microscopy.
+
+## Stages:
+## 1. Take a fork of or download the Artimagen artificial scanning charged particle image generation 
+## package and update to run on Python 3+.
+## 2. Generate a series of artificial scanning electron micropscopy images (between 1500 
+## - 10000) with caclulated variation due to thermal drift.
+## 3. Design a neural network that uses several physical phenomena as variables for the 
+## creation of the perceptron.
+## 4. Train/test the NN on the artificially generated images.
+## 5. Apply the optimised NN on the experimentally obtained BSE images/movies.
